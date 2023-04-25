@@ -1,0 +1,194 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	font-size: 16px;
+	font-family: Arial, sans-serif;
+}
+
+body {
+	background-color: #f7f7f7;
+	color: #333;
+	line-height: 1.5;
+}
+
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+a {
+	color: #007bff;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
+    color: #022347;
+}
+
+.btn-primary {
+	display: inline-block;
+	padding: 12px 24px;
+	background-color: #007bff;
+	color: #fff;
+	border-radius: 4px;
+	text-align: center;
+	transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    text-decoration: none;
+    color: wheat;
+	background-color: #022347;
+}
+.logo{
+    width: 80px;
+    height: 80px;
+}
+.wlc{
+    color: #0062cc;
+}
+#banner{
+    margin-top: 100px;
+}
+
+header {
+	background-color: #fff;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 999;
+}
+
+header .container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 80px;
+}
+
+header h1 a {
+	font-size: 32px;
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+
+header nav ul {
+	display: flex;
+	list-style: none;
+}
+
+header nav ul li {
+	margin-left: 24px;
+}
+
+#hero {
+	background-image: url("ro-bg.jpg");
+	background-size: cover;
+	background-position: center center;
+	height: 500px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+#hero h2 {
+	font-size: 48px;
+	font-weight: bold;
+	color: #fff;
+	text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+	margin-bottom: 24px;
+}
+
+#hero p {
+	font-size: 24px;
+	color: #fff;
+	text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+	margin-bottom: 24px;
+}
+
+#features {
+	background-color: #fff;
+	padding: 80px 0;
+}
+
+.feature {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-bottom: 40px;
+}
+
+.feature img {
+	margin-bottom: 20px;
+}
+
+.feature h3 {
+	font-size: 24px;
+	font-weight: bold;
+	margin-bottom: 16px;
+}
+
+.feature p {
+	font-size: 16px;
+	text-align: center;
+}
+
+#faq {
+	background-color: #f7f7f7;
+	padding: 80px 0;
+}
+
+.faq-question {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-bottom: 40px;
+}
+
+.faq-question h3 {
+	font-size: 24px;
+	font-weight: bold;
+	margin-bottom: 16px;
+}
+
+.faq-question p {
+	font-size: 16px;
+	text-align: center;
+}
+
+.faq-answer {
+	display: none;
+	font-size: 16px;
+	text-align: center;
+}
+
+.faq-question.active .faq-answer {
+	display: block;
+	margin-top: 16px;
+}
+
+.faq-question.active h3 {
+	font-weight: normal;
+}
+
+.sub-btn{
+    margin-top: 10px;
+}
+
+@media screen and (max-width:676px) {
+    .navvv li{
+        display: none;
+    }
+    
+}
