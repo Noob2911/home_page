@@ -55,10 +55,10 @@
 	</header>
 
 	<section id="banner">
-		<div class="container">
-			<h1>Recycling E-Waste and Li Batteries for a Greener Future</h1>
+		<div class="bnr">
+			<h1>REMINE INDIA PRIVATE LIMITED</h1>
+			<h3>Recycling E-Waste and Li Batteries for a Greener Future</h3>
 			<p>Join us in promoting sustainability by responsibly managing e-waste and Li batteries</p>
-			<a href="#" class="btn-primary">Schedule a Pickup</a>
 		</div>
 	</section>
 
@@ -137,19 +137,30 @@
 		<div class="container contact">
 			<h2>Contact Us</h2>
 			<form action="#" method="post">
-				<div>
-					Name<br><input type="text" required placeholder="Name">
-				</div>
-				<div>
-					Email<br><input type="email" required placeholder="Email">
-				</div>
-				<div class="msg-border">
-					Message<br><input type="text" required placeholder="Massage">
-				</div>
-
-				<div class="sub-btn">
-					<button type="submit" class="btn-primary">Submit</button>
-				</div>
+				<div class="container">
+					<form action="action_page.php">
+				  
+					  <label for="fname">First Name</label>
+					  <input type="text" id="fname" name="firstname" placeholder="Your name..">
+				  
+					  <label for="lname">Last Name</label>
+					  <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+				  
+					  <!-- <label for="country">Country</label>
+					  <select id="country" name="country">
+						<option value="australia">india</option>
+						<option value="australia">Australia</option>
+						<option value="canada">Canada</option>
+						<option value="usa">USA</option>
+					  </select> -->
+				  
+					  <label for="subject">Subject</label>
+					  <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+				  
+					  <input type="submit" value="Submit">
+				  
+					</form>
+				  </div>
 			</form>
 			<div class="alt">
 				<p>Alternatively, you can reach us at:</p>
