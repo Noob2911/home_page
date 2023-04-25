@@ -55,6 +55,10 @@ a:hover {
 }
 #banner{
     margin-top: 100px;
+    background-image: url("bgk.jpg");
+    background-size: cover;
+    background-position: center;
+    color: wheat;
 }
 
 header {
