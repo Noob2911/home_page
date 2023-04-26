@@ -10,7 +10,7 @@ html {
 }
 
 body {
-	background-color: #f7f7f7;
+	background-color: #f2f2f2;
 	color: #333;
 	line-height: 1.5;
 }
@@ -28,7 +28,7 @@ a {
 
 a:hover {
 	text-decoration: none;
-    color: #022347;
+	color: #022347;
 }
 
 .btn-primary {
@@ -42,32 +42,37 @@ a:hover {
 }
 
 .btn-primary:hover {
-    text-decoration: none;
-    color: wheat;
+	text-decoration: none;
+	color: wheat;
 	background-color: #022347;
 }
-.logo{
-    width: 80px;
-    height: 80px;
+
+.logo {
+	width: 80px;
+	height: 80px;
 }
-.wlc{
-    color: #0062cc;
+
+.wlc {
+	color: #0062cc;
 }
-#banner{
-    margin-top: 80px;
-    height: 60vh;
-    background-image: url("bgk.jpg");
-    background-size: cover;
-    background-position: center;
-    opacity: 0.65;
+
+#banner {
+	margin-top: 80px;
+	height: 60vh;
+	background-image: url("bgk.jpg");
+	background-size: contain;
+	background-position: center;
+	opacity: 0.75;
 }
-.bnr{
-    text-align: center;
-    padding: 150px;
-    color: rgb(61, 3, 248);
+
+.bnr {
+	text-align: center;
+	padding: 150px;
+	color: #0062cc;
 }
+
 header {
-	background-color: #fff;
+	background-color: #f2f2f2;
 	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 	position: fixed;
 	top: 0;
@@ -93,6 +98,10 @@ header h1 a {
 header nav ul {
 	display: flex;
 	list-style: none;
+}
+
+section {
+	background-color: #f2f2f2;
 }
 
 header nav ul li {
@@ -191,43 +200,45 @@ header nav ul li {
 	font-weight: normal;
 }
 
-.sub-btn{
-    margin-top: 10px;
+.sub-btn {
+	margin-top: 10px;
 }
 
-input[type=text], select, textarea {
-    width: 100%; 
-    padding: 12px;
-    border: 1px solid #ccc; 
-    border-radius: 4px; 
-    box-sizing: border-box; 
-    margin-top: 6px; 
-    margin-bottom: 16px;
-    resize: vertical 
-  }
-  
-  input[type=submit] {
-    background-color: #04AA6D;
-    color: white;
-    padding: 12px 20px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-  }
-  
-  input[type=submit]:hover {
-    background-color: #45a049;
-  }
-  
-  .container {
-    border-radius: 5px;
-    background-color: #f2f2f2;
-    padding: 20px;
-  }
+input[type=text],
+input[type=email] select,
+textarea {
+	width: 100%;
+	padding: 12px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+	margin-top: 6px;
+	margin-bottom: 16px;
+	resize: vertical
+}
+
+input[type=submit] {
+	background-color: #04AA6D;
+	color: white;
+	padding: 12px 20px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+input[type=submit]:hover {
+	background-color: #45a049;
+}
+
+.container {
+	border-radius: 5px;
+	background-color: #f2f2f2;
+	padding: 20px;
+}
 
 @media screen and (max-width:676px) {
-    .navvv li{
-        display: none;
-    }
-    
+	.navvv li {
+		display: none;
+	}
+
 }
